@@ -66,6 +66,9 @@ body::-webkit-scrollbar{
 }
 
 nav{
+
+    background-color: $Primary !important;
+
     .nav-link{
         font-family: $fontX !important;
         color: $Dark !important;

@@ -46,6 +46,9 @@ body::-webkit-scrollbar {
   border-radius: 0px !important;
 }
 
+nav {
+  background-color: #FDEFE3 !important;
+}
 nav .nav-link {
   font-family: "Montserrat Alternates", sans-serif !important;
   color: #0C0C0C !important;
