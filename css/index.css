@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  overflow-x: hidden !important;
+}
+
+body {
+  background-color: #FDEFE3 !important;
+  color: #0C0C0C !important;
+}
+body .Title {
+  font-family: "Times New Roman", Times, serif;
+  color: #0C0C0C !important;
+  font-size: 96px;
+}
+body .text {
+  font-size: 24px !important;
+}
+body .LisTtext {
+  font-family: "Montserrat Alternates", sans-serif !important;
+}
+body .LargeTitle {
+  font-family: "Times New Roman", Times, serif;
+  color: #0C0C0C !important;
+  font-size: 200px;
+}
+body a {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+}
+
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+.btn {
+  font-family: "Times New Roman", Times, serif !important;
+  color: #FFFFFF !important;
+  font-size: 20px !important;
+  background-color: #580707 !important;
+  border-radius: 0px !important;
+}
+
+nav .nav-link {
+  font-family: "Montserrat Alternates", sans-serif !important;
+  color: #0C0C0C !important;
+  font-weight: 400 !important;
+}
+
+#About .CardTitle {
+  font-family: "Times New Roman", Times, serif !important;
+  font-size: 36px !important;
+}
+#About .cardText {
+  font-family: "Montserrat Alternates", sans-serif !important;
+  font-size: 18px;
+}
+
+#Benefits {
+  background-color: #180808 !important;
+  color: #FFFFFF !important;
+}
+
+#Contact .callCard {
+  background-color: #0C0C0C !important;
+  border-radius: 15px;
+  color: #FFFFFF !important;
+}
+#Contact .callCard .cardTitle {
+  font-family: "Times New Roman", Times, serif !important;
+}
+#Contact .callCard .cardMin {
+  font-family: "Montserrat Alternates", sans-serif !important;
+  font-size: 24px !important;
+}
+
+#FOOTER a {
+  font-family: "Montserrat Alternates", sans-serif !important;
+  color: #0C0C0C !important;
+}
+
+@media screen and (max-width: 480px) {
+  body .Title {
+    font-size: 40px;
+  }
+  body .text {
+    font-size: 16px !important;
+  }
+  body .LargeTitle {
+    font-family: "Times New Roman", Times, serif;
+    color: #0C0C0C !important;
+    font-size: 70px;
+  }
+  #About .CardTitle {
+    font-size: 24px !important;
+  }
+  #About .cardText {
+    font-size: 15px;
+  }
+  #Contact .callCard {
+    background-color: #0C0C0C !important;
+    border-radius: 15px;
+    color: #FFFFFF !important;
+  }
+  #Contact .callCard .cardTitle {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+  #Contact .callCard .cardMin {
+    font-family: "Montserrat Alternates", sans-serif !important;
+    font-size: 15px !important;
+  }
+}/*# sourceMappingURL=index.css.map */

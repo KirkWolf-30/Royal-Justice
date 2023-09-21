@@ -1,0 +1,179 @@
+$Primary: #FDEFE3;
+$White: #FFFFFF;
+$Dark: #0C0C0C;
+$Action: #580707;
+$option: #180808;
+
+$font: 'Times New Roman', Times, serif;
+
+$fontX: 'Montserrat Alternates', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+
+body{
+    background-color: $Primary !important;
+    color: $Dark !important;
+    .Title{
+        font-family: $font;
+        color: $Dark !important;
+        font-size: 96px;
+    }
+
+    .text{
+        font-size: 24px !important;
+    }
+
+  .LisTtext{
+    font-family: $fontX !important;
+  }
+
+
+  .LargeTitle{
+    font-family: $font;
+    color: $Dark !important;
+    font-size: 200px;
+  }
+
+  a{
+    color: $White !important;
+    text-decoration: none !important;
+  }
+
+}
+
+body::-webkit-scrollbar{
+    display: none !important;
+}
+
+.btn{
+    font-family: $font !important;
+    color: $White !important;
+    font-size:20px !important;
+    background-color: $Action !important;
+    border-radius: 0px !important;
+
+}
+
+nav{
+    .nav-link{
+        font-family: $fontX !important;
+        color: $Dark !important;
+        font-weight: 400 !important;
+    }
+}
+
+#About{
+    .CardTitle{
+        font-family: $font !important;
+        font-size: 36px !important;
+    }
+
+    .cardText{
+        font-family: $fontX !important;
+        font-size: 18px;
+    }
+}
+
+#Benefits{
+    background-color: $option !important;
+    color: $White !important;
+}
+
+
+#Contact{
+
+    .callCard{
+        background-color: $Dark !important;
+        border-radius: 15px;
+        color: $White !important;
+
+
+        .cardTitle{
+            font-family: $font !important;
+        }
+
+        .cardMin{
+            font-family: $fontX !important;
+            font-size: 24px !important;
+        }
+    }
+
+}
+
+
+#FOOTER{
+
+    a{
+        font-family: $fontX !important;
+        color: $Dark !important;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    body{
+        .Title{
+            font-size: 40px;
+        }
+    
+        .text{
+            font-size: 16px !important;
+        }
+        
+      .LargeTitle{
+        font-family: $font;
+        color: $Dark !important;
+        font-size: 70px;
+      }
+    
+    }
+
+
+
+    #About{
+        .CardTitle{
+            font-size: 24px !important;
+        }
+    
+        .cardText{
+            font-size: 15px;
+        }
+    }
+
+
+    #Contact{
+
+        .callCard{
+            background-color: $Dark !important;
+            border-radius: 15px;
+            color: $White !important;
+    
+    
+            .cardTitle{
+                font-family: $font !important;
+            }
+    
+            .cardMin{
+                font-family: $fontX !important;
+                font-size: 15px !important;
+            }
+        }
+    
+    }
+    
+
+
+  }
